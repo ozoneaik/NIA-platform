@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font_primary{
+    color: #0E572B;
+}
+
+.font_sec_primary{
+    color: #218147;
+}
+
+.bg_primary{
+    background-color: #0E572B;
+}
+
+html, body {
+    /*height: 100%;*/
+    margin: 0;
+    padding: 0;
+}
+
+.Container {
+    display: grid;
+    grid-template-rows: auto 1fr; /* auto คือส่วนบน, 1fr คือเนื้อหาและ footer */
+    height: 100vh;
+}
+
+.form-control{
+    border-radius: 14px;
+    border: 1px solid #B4D1C1;
+    background: #EBF3ED;
+}
+.input-group-text{
+    border: 1px solid #B4D1C1;
+    border-radius: 14px;
+    background: #EBF3ED;
+}
+
+input, .btn{
+    height: 56px;
+}
+
+input::placeholder{
+    font-size: 14px;
+}
+button{
+    height: 56px;
+
+}
+
+.btn{
+    border-radius: 14px;
+}
+
+.form-check-input:checked{
+    background-color: #0E572B;
+    border: none;
+}
+.Footer {
+}
